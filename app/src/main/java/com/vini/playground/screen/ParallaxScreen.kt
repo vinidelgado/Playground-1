@@ -64,18 +64,39 @@ fun ParallaxScreen() {
                 textColor = Color.White
             )
             Spacer(modifier = Modifier.height(6.dp))
-            Text(text = "Remembering Kobe Bryant", color = Color.White, style = parallaxTypography.h4)
+            Text(
+                text = "Remembering Kobe Bryant",
+                color = Color.White,
+                style = parallaxTypography.h4
+            )
             Spacer(modifier = Modifier.height(30.dp))
             Text(
-                text = "Kobe Bean Bryant (Filadélfia, 23 de agosto de 1978 — Calabasas, 26 de janeiro de 2020)[1] foi um jogador profissional de basquetebol estadunidense. Jogou toda sua carreira como ala-armador no Los Angeles Lakers da National Basketball Association (NBA). Filho de Joe Bryant, ex-jogador do Philadelphia 76ers e antigo técnico do time Los Angeles Sparks da WNBA, é considerado um dos maiores jogadores de todos os tempos.[2][3][4][5] Por outro lado, críticos alegam suas baixas porcentagens de arremessos de campo, de dois e três pontos (ao longo de sua carreira, teve média de 44% em arremessos de dois e 32% em triplos, que até caem nos playoffs), que fazem dele o jogador com mais arremessos perdidos na história da NBA: 14 481 arremessos de campo perdidos na temporada regular (marcou 11 719 de um total de 26 200 arremessos) e 2 485 (marcou 2 014 dum total de 4 499 arremessos nos playoffs), totalizando 16 966 arremessos perdidos.[6]\n" +
+                text = "The text from an unfamiliar 949 number arrived at some ungodly hour in the spring of 2016. I don't have it anymore. I wish I did.\n" +
                         "\n" +
-                        "Foi um dos poucos atletas a ser escolhido no recrutamento da NBA direto do ensino médio para a liga norte-americana. Ao longo de 20 anos de carreira, ganhou cinco campeonatos da NBA, participou 18 vezes do All-Star Game (recorde absoluto), foi eleito 15 vezes como membro da Equipe ideal da NBA, 12 vezes como membro da All-Defensive Team da NBA e foi o Jogador Mais Valioso (MVP) da NBA em 2008.\n" +
+                        "\"It's Kobe. Call me.\"\n" +
                         "\n" +
-                        "Kobe, junto com o pivô Shaquille O'Neal e o técnico Phil Jackson, levou os Lakers a três campeonatos consecutivos da NBA, a chamada ‘dinastia’ nos Estados Unidos – 2000, 2001 e 2002. Após a temporada 2003–04, Shaquille O'Neal saiu do time e Kobe tornou-se a estrela principal do time de Los Angeles, sendo o cestinha da liga por duas temporadas consecutivas: 2005–06 e 2006–07. Nessas temporadas, quebrou vários recordes pessoais e da liga. Em 2006, fez 81 pontos num jogo contra o Toronto Raptors, segunda maior pontuação de todos os tempos, atrás somente dos 100 pontos de Wilt Chamberlain, marcados numa partida em 1962. Contudo, há analistas da NBA que defendem que o desempenho de Kobe foi melhor.[7][8]",
+                        "I assumed it was a hoax. I called my colleague Ramona Shelburne. I recited the number. She said it was the real Kobe.\n" +
+                        "\n" +
+                        "I pivoted into fear. I started covering the NBA in 2010 as Kobe Bryant entered his twilight. It went downhill fast. An Achilles tear -- one that seemed to barely register to Kobe as a serious injury when it happened -- hastened the end.\n" +
+                        "\n" +
+                        "Even before his injuries, I had been hard on Kobe from afar. His style of play had grown antiquated. As retirement neared, I argued Bryant was perhaps a hair overrated in historical debates. Had he heard and read that stuff?\n" +
+                        "\n" +
+                        "What I found out when I called him was that even if Bryant had read any of it, he had bigger things on his mind -- grand plans to put in motion.\n" +
+                        "\n" +
+                        "He told me that as he neared retirement, he was growing concerned about media coverage of the NBA. He felt in the endless focus on legacy and championships and trade machinations, the game itself -- the craft, the beauty -- was getting lost. The unofficial winner of #RINGZ discourse was tired of it.\n" +
+                        "\n" +
+                        "He appreciated that I tried to write about X's and O's. He wanted to meet and discuss the future of media coverage.\n" +
+                        "\n" +
+                        "He invited me to his office in Newport Beach, California, to watch Game 5 of the Eastern Conference finals, on May 25, 2016. I was petrified. This was a basketball test administered by Kobe Bryant. How many staff members and assistants were going to witness my humiliation?\n" +
+                        "\n" +
+                        "I also felt ambivalent entering his orbit. It was and is impossible to separate Bryant the basketball supernova from the man who was accused, in 2003, of sexually assaulting a 19-year-old woman in a Colorado hotel. Fourteen months later, prosecutors dropped the criminal charge when the woman declined to continue to participate in the case after a series of courthouse errors, including the release of her name. (Bryant and the woman subsequently settled her civil suit out of court.) Bryant issued a written apology, saying in part, \"Although I truly believe this encounter between us was consensual, I recognize now that she did not and does not view this incident the same way I did.\" That was a real and serious concession. It is hard to reckon with now.\n" +
+                        "\n" +
+                        "I was uneasy when I knocked on the door of his office. He answered. He took me to a conference room with a giant TV. It was me and Kobe. An assistant left after bringing a six-pack of beer. Kobe asked if I wanted to split it.",
                 color = Color.White,
                 lineHeight = 28.sp,
                 style = parallaxTypography.subtitle1
             )
+            Spacer(modifier = Modifier.height(24.dp))
 
         }
     }
