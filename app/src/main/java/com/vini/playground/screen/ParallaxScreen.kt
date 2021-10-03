@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.graphicsLayer
@@ -36,6 +37,7 @@ fun ParallaxScreen() {
             .fillMaxSize()
             .background(Color.Black, RectangleShape)
     ) {
+        val (parallaxImage, parallaxBottomOpacity) = createRefs()
         Image(
             painter = rememberImagePainter(R.drawable.img_kobe),
             contentDescription = null,
@@ -47,7 +49,29 @@ fun ParallaxScreen() {
                     alpha = min(1f, 1 - (scrollState.value / 600f))
                     translationY = -scrollState.value * 0.1f
                 }
+                .constrainAs(parallaxImage) {
+                    top.linkTo(parent.top)
+                    start.linkTo(parent.start)
+                    end.linkTo(parent.end)
+                }
         )
+        Spacer(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(20.dp)
+                .background(
+                    brush = Brush.verticalGradient(
+                        colors = listOf(
+                            Color.Transparent,
+                            Color.Black
+                        )
+                    ), RectangleShape
+                )
+                .constrainAs(parallaxBottomOpacity) {
+                    bottom.linkTo(parallaxImage.bottom)
+                    start.linkTo(parent.start)
+                    end.linkTo(parent.end)
+                })
 
         Column(
             modifier = Modifier
