@@ -1,5 +1,5 @@
 # Playground Jetpack Compose Samples
-<img src="readme/samples_montage.gif" alt="Jetpack Compose Samples" width="1024" />
+<img src="screens/parallax.webm" alt="Jetpack Compose Samples" width="1024" />
 
 For more information, please [read the documentation](https://developer.android.com/jetpack/compose)
 
