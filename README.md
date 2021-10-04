@@ -15,7 +15,7 @@ project from Android Studio following the steps
 ------------
 | Project | |
 |:-----|---------|
-|  <br><img src="readme/parallax/parallax_sample.png" alt="Parallax Effect" width="240"></img> <br><br> A sample of any Detail Screen using Parallax Effect <br><br> • Easy complexity<br>• UI<br>• Animation<br>• Resource loading <br>• Basic UI Testing <br><br> **[> Inspiration](https://dribbble.com/shots/15690299-The-Athletic-Case-study/attachments/7488059?mode=media)**<br><br> | <img src="readme/parallax/parallax_sample.png" width="320" alt="Parallax sample demo"> |
+|  <br> A sample of any Detail Screen using Parallax Effect <br><br> • Easy complexity<br>• UI<br>• Animation<br>• Resource loading <br>• Basic UI Testing <br><br> **[> Inspiration](https://dribbble.com/shots/15690299-The-Athletic-Case-study/attachments/7488059?mode=media)**<br><br> | <img src="readme/parallax/parallax_sample.png" width="320" alt="Parallax sample demo"> |
 |  |  |
 <!-- |  <br><img src="readme/jetchat.png" alt="Jetchat" width="240"></img> <br><br>A sample chat app that focuses on UI state patterns and text input.<br><br>• Low complexity<br>• Simple Material Design theme (Light & dark)<br>• Resource loading<br>• Back button handling<br>• Integration with Architecture Components: Navigation, Fragments, LiveData, ViewModel<br>• Animation<br>• UI Testing<br><br>**[> Browse](Jetchat/)** <br><br> | <img src="readme/screenshots/Jetchat.png" width="320" alt="Jetchat sample demo">| -->
 <!-- |  |  | -->
