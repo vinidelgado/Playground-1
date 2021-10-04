@@ -9,3 +9,9 @@ To try out these sample apps, you need to use [Android Studio Arctic Fox](https:
 You can clone this repository or import the
 project from Android Studio following the steps
 [here](https://developer.android.com/jetpack/compose/setup#sample).
+
+
+💻 Parallax
+------------
+Design inspiration - https://dribbble.com/shots/15690299-The-Athletic-Case-study/attachments/7488059?mode=media
+
