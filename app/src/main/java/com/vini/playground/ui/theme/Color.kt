@@ -10,6 +10,10 @@ val Teal200 = Color(0xFF03DAC5)
 val ParallaxStatusBar = Color(0xff121212)
 val ParallaxRed = Color(0xFFEF5551)
 
+val ProgressBarBackground = Color(0xFFECECEC)
+val ProgressBarPercentage = Color(0xFF14CFB7)
+val ProgressBarTopicTime = Color(0xFFBCBEC2)
+
 
 
 const val AlphaNearOpaque = 0.95f

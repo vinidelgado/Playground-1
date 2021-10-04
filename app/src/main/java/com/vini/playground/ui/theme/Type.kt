@@ -14,6 +14,24 @@ private val fonts = FontFamily(
     Font(R.font.poppins_bold, FontWeight.Bold)
 )
 
+val progressBarTypography = Typography(
+    caption = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Bold,
+        fontSize = 12.sp
+    ),
+    h4 = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Bold,
+        fontSize = 46.sp
+    ),
+    subtitle1 = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    ),
+)
+
 val parallaxTypography = Typography(
     caption = TextStyle(
         fontFamily = FontFamily.Default,
