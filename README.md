@@ -11,7 +11,7 @@ project from Android Studio following the steps
 [here](https://developer.android.com/jetpack/compose/setup#sample).
 
 
-💻 Parallax
+💻 Parallax Effect
 ------------
 Design inspiration - https://dribbble.com/shots/15690299-The-Athletic-Case-study/attachments/7488059?mode=media
 
