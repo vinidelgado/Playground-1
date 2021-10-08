@@ -13,6 +13,7 @@ val ParallaxRed = Color(0xFFEF5551)
 val ProgressBarBackground = Color(0xFFECECEC)
 val ProgressBarPercentage = Color(0xFF14CFB7)
 val ProgressBarTopicTime = Color(0xFFBCBEC2)
+val ProgressBarTopicPercentage = Color(0xFF0B0D0C)
 
 
 

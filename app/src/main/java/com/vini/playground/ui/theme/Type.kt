@@ -18,12 +18,17 @@ val progressBarTypography = Typography(
     caption = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Bold,
-        fontSize = 12.sp
+        fontSize = 14.sp
     ),
     h4 = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Bold,
         fontSize = 46.sp
+    ),
+    h5 = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Bold,
+        fontSize = 32.sp
     ),
     subtitle1 = TextStyle(
         fontFamily = FontFamily.Default,
