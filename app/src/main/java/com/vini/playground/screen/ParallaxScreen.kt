@@ -94,27 +94,57 @@ fun ParallaxScreen() {
             )
             Spacer(modifier = Modifier.height(30.dp))
             Text(
-                text = "The text from an unfamiliar 949 number arrived at some ungodly hour in the spring of 2016. I don't have it anymore. I wish I did.\n" +
+                text = "The text from an unfamiliar 949 number arrived at some ungodly hour in" +
+                        " the spring of 2016. I don't have it anymore. I wish I did.\n" +
                         "\n" +
                         "\"It's Kobe. Call me.\"\n" +
                         "\n" +
-                        "I assumed it was a hoax. I called my colleague Ramona Shelburne. I recited the number. She said it was the real Kobe.\n" +
+                        "I assumed it was a hoax. I called my colleague Ramona Shelburne. " +
+                        "I recited the number. She said it was the real Kobe.\n" +
                         "\n" +
-                        "I pivoted into fear. I started covering the NBA in 2010 as Kobe Bryant entered his twilight. It went downhill fast. An Achilles tear -- one that seemed to barely register to Kobe as a serious injury when it happened -- hastened the end.\n" +
+                        "I pivoted into fear. I started covering the NBA in 2010 as Kobe Bryant " +
+                        "entered his twilight. It went downhill fast. An Achilles tear -- one that " +
+                        "seemed to barely register to Kobe as a serious injury when it happened" +
+                        " -- hastened the end.\n" +
                         "\n" +
-                        "Even before his injuries, I had been hard on Kobe from afar. His style of play had grown antiquated. As retirement neared, I argued Bryant was perhaps a hair overrated in historical debates. Had he heard and read that stuff?\n" +
+                        "Even before his injuries, I had been hard on Kobe from afar. His style of " +
+                        "play had grown antiquated. As retirement neared, I argued Bryant was " +
+                        "perhaps a hair overrated in historical debates. Had he heard and read " +
+                        "that stuff?\n" +
                         "\n" +
-                        "What I found out when I called him was that even if Bryant had read any of it, he had bigger things on his mind -- grand plans to put in motion.\n" +
+                        "What I found out when I called him was that even if Bryant had read any of " +
+                        "it, he had bigger things on his mind -- grand plans to put in motion.\n" +
                         "\n" +
-                        "He told me that as he neared retirement, he was growing concerned about media coverage of the NBA. He felt in the endless focus on legacy and championships and trade machinations, the game itself -- the craft, the beauty -- was getting lost. The unofficial winner of #RINGZ discourse was tired of it.\n" +
+                        "He told me that as he neared retirement, he was growing concerned about " +
+                        "media coverage of the NBA. He felt in the endless focus on legacy and " +
+                        "championships and trade machinations, the game itself -- the craft, the " +
+                        "beauty -- was getting lost. The unofficial winner of #RINGZ discourse " +
+                        "was tired of it.\n" +
                         "\n" +
-                        "He appreciated that I tried to write about X's and O's. He wanted to meet and discuss the future of media coverage.\n" +
+                        "He appreciated that I tried to write about X's and O's. He wanted to meet " +
+                        "and discuss the future of media coverage.\n" +
                         "\n" +
-                        "He invited me to his office in Newport Beach, California, to watch Game 5 of the Eastern Conference finals, on May 25, 2016. I was petrified. This was a basketball test administered by Kobe Bryant. How many staff members and assistants were going to witness my humiliation?\n" +
+                        "He invited me to his office in Newport Beach, California, to watch Game " +
+                        "5 of the Eastern Conference finals, on May 25, 2016. I was petrified. " +
+                        "This was a basketball test administered by Kobe Bryant. How many staff " +
+                        "members and assistants were going to witness my humiliation?\n" +
                         "\n" +
-                        "I also felt ambivalent entering his orbit. It was and is impossible to separate Bryant the basketball supernova from the man who was accused, in 2003, of sexually assaulting a 19-year-old woman in a Colorado hotel. Fourteen months later, prosecutors dropped the criminal charge when the woman declined to continue to participate in the case after a series of courthouse errors, including the release of her name. (Bryant and the woman subsequently settled her civil suit out of court.) Bryant issued a written apology, saying in part, \"Although I truly believe this encounter between us was consensual, I recognize now that she did not and does not view this incident the same way I did.\" That was a real and serious concession. It is hard to reckon with now.\n" +
+                        "I also felt ambivalent entering his orbit. It was and is impossible to " +
+                        "separate Bryant the basketball supernova from the man who was accused, " +
+                        "in 2003, of sexually assaulting a 19-year-old woman in a Colorado hotel. " +
+                        "Fourteen months later, prosecutors dropped the criminal charge when the " +
+                        "woman declined to continue to participate in the case after a series of " +
+                        "courthouse errors, including the release of her name. (Bryant and the " +
+                        "woman subsequently settled her civil suit out of court.) Bryant issued a " +
+                        "written apology, saying in part, \"Although I truly believe this encounter " +
+                        "between us was consensual, I recognize now that she did not and does not " +
+                        "view this incident the same way I did.\" That was a real and serious " +
+                        "concession. It is hard to reckon with now.\n" +
                         "\n" +
-                        "I was uneasy when I knocked on the door of his office. He answered. He took me to a conference room with a giant TV. It was me and Kobe. An assistant left after bringing a six-pack of beer. Kobe asked if I wanted to split it.",
+                        "I was uneasy when I knocked on the door of his office. He answered. He " +
+                        "took me to a conference room with a giant TV. It was me and Kobe. An " +
+                        "assistant left after bringing a six-pack of beer. Kobe asked if I " +
+                        "wanted to split it.",
                 color = Color.White,
                 lineHeight = 28.sp,
                 style = parallaxTypography.subtitle1
