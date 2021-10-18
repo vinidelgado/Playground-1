@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Playground</string>
+    <string name="walkthrough_title">Financy</string>
+    <string name="walkthrough_title_one">Save money</string>
+    <string name="walkthrough_title_two">Check your wallet</string>
+    <string name="walkthrough_title_three">Have access anywhere</string>
+    <string name="walkthrough_subtitle_one">Have all your finances in one place!</string>
+    <string name="walkthrough_subtitle_two">Manage your money and invest with just one tap!</string>
+    <string name="walkthrough_subtitle_three">Reach your financial goal within your first year!  </string>
+    <string name="walkthrough_button_one">Continue</string>
+    <string name="walkthrough_button_two">Continue</string>
+    <string name="walkthrough_button_three">Get Started</string>
+</resources>
