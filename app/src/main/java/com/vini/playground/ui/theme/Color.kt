@@ -16,5 +16,9 @@ val ProgressBarTopicTime = Color(0xFFBCBEC2)
 val ProgressBarTopicPercentage = Color(0xFF0B0D0C)
 
 
+val WalkthroughButtonBackground = Color(0xFF6F6CD9)
+val WalkthroughIndicatorActive = Color(0xFF6F6CD9)
+val WalkthroughIndicatorInactive = Color(0xFFCDD9E3)
+
 
 const val AlphaNearOpaque = 0.95f

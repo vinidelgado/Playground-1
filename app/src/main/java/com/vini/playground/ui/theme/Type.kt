@@ -14,6 +14,12 @@ private val fonts = FontFamily(
     Font(R.font.poppins_bold, FontWeight.Bold)
 )
 
+private val fontsMontserrat = FontFamily(
+    Font(R.font.montserrat_regular),
+    Font(R.font.montserrat_semibold, FontWeight.SemiBold),
+    Font(R.font.montserrat_bold, FontWeight.Bold)
+)
+
 val progressBarTypography = Typography(
     caption = TextStyle(
         fontFamily = FontFamily.Default,
@@ -52,6 +58,29 @@ val parallaxTypography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp
+    ),
+)
+
+val walkthroughTypography = Typography(
+    h4 = TextStyle(
+        fontFamily = fontsMontserrat,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 24.sp
+    ),
+    subtitle1 = TextStyle(
+        fontFamily = fontsMontserrat,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 24.sp
+    ),
+    subtitle2 = TextStyle(
+        fontFamily = fontsMontserrat,
+        fontWeight = FontWeight.Normal,
+        fontSize = 24.sp
+    ),
+    button = TextStyle(
+        fontFamily = fontsMontserrat,
+        fontWeight = FontWeight.Bold,
+        fontSize = 14.sp
     ),
 )
 
