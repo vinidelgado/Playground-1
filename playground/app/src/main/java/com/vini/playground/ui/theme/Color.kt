@@ -20,5 +20,10 @@ val WalkthroughButtonBackground = Color(0xFF6F6CD9)
 val WalkthroughIndicatorActive = Color(0xFF6F6CD9)
 val WalkthroughIndicatorInactive = Color(0xFFCDD9E3)
 
+val PortfolioBackground = Color(0xFF151515)
+val PortfolioCardBackground = Color(0xFF201F22)
+val PortfolioTextTitleColor = Color(0xFFFFFFFF)
+val PortfolioTextDescriptionBColor = Color(0xFF949495)
+
 
 const val AlphaNearOpaque = 0.95f

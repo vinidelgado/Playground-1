@@ -5,6 +5,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 import com.vini.playground.R
 
@@ -20,24 +21,37 @@ private val fontsMontserrat = FontFamily(
     Font(R.font.montserrat_bold, FontWeight.Bold)
 )
 
+private val fontsGothic = FontFamily(
+    Font(R.font.gothic_regular),
+    Font(R.font.gothic_semibold, FontWeight.SemiBold),
+    Font(R.font.gothic_bold, FontWeight.Bold)
+)
+
+
+private val fontsTest = FontFamily(
+    Font(R.font.festive_regular),
+    Font(R.font.festive_regular, FontWeight.SemiBold),
+    Font(R.font.festive_regular, FontWeight.Bold)
+)
+
 val progressBarTypography = Typography(
     caption = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = fonts,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp
     ),
     h4 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = fonts,
         fontWeight = FontWeight.Bold,
         fontSize = 46.sp
     ),
     h5 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = fonts,
         fontWeight = FontWeight.Bold,
         fontSize = 32.sp
     ),
     subtitle1 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = fonts,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp
     ),
@@ -58,6 +72,35 @@ val parallaxTypography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp
+    ),
+)
+
+val portfolioTypography = Typography(
+    h5 = TextStyle(
+        fontFamily = fontsGothic,
+        fontWeight = FontWeight.Bold,
+        fontSize = 32.sp,
+        textAlign = TextAlign.Left
+    ),
+    caption = TextStyle(
+        fontFamily = fontsGothic,
+        fontWeight = FontWeight.Bold,
+        fontSize = 10.sp,
+        letterSpacing = 1.sp,
+        textAlign = TextAlign.Left
+    ),
+    subtitle1 = TextStyle(
+        fontFamily = fontsGothic,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 24.sp,
+        textAlign = TextAlign.Left
+    ),
+    subtitle2 = TextStyle(
+        fontFamily = fontsGothic,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp,
+        lineHeight = 20.sp,
+        textAlign = TextAlign.Left
     ),
 )
 
