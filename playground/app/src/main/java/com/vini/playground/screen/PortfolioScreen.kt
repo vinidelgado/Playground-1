@@ -8,8 +8,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.*
+import androidx.navigation.NavHostController
 import coil.annotation.ExperimentalCoilApi
 import com.vini.playground.components.PortfolioCard
 import com.vini.playground.data.PortfolioProject
@@ -18,7 +18,7 @@ import com.vini.playground.ui.theme.*
 @ExperimentalUnitApi
 @OptIn(ExperimentalCoilApi::class)
 @Composable
-fun PortfolioScreen(list: List<PortfolioProject>) {
+fun PortfolioScreen(navController: NavHostController, list: List<PortfolioProject>) {
     Scaffold(
         modifier = Modifier
             .fillMaxSize()
@@ -45,9 +45,19 @@ fun PortfolioScreen(list: List<PortfolioProject>) {
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(horizontal = 32.dp, vertical = 16.dp),
+                        projectId = list[index].id,
                         tecnology = list[index].tecnology,
                         projectTitle = list[index].title,
-                        description = list[index].description
+                        description = list[index].description,
+                        onPortfolioProjectTapped = {
+                            navController.navigate(
+                                when (it) {
+                                    1 -> "parallax"
+                                    2 -> "wellness"
+                                    else -> "walkthrough"
+                                }
+                            )
+                        }
                     )
                 }
             }

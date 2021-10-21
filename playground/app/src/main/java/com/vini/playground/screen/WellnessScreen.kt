@@ -30,7 +30,7 @@ import com.vini.playground.ui.theme.*
 import kotlin.random.Random
 
 @Composable
-fun WellnessActivitiesScreen() {
+fun WellnessScreen() {
     Scaffold(modifier = Modifier.fillMaxSize()) {
         Column(
             modifier = Modifier
@@ -177,7 +177,7 @@ fun WellnessScreenSample() {
                 .background(ProgressBarBackground),
             contentAlignment = Alignment.Center
         ) {
-            WellnessActivitiesScreen()
+            WellnessScreen()
         }
     }
 }

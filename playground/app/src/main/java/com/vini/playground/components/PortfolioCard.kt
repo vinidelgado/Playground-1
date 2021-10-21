@@ -1,6 +1,7 @@
 package com.vini.playground.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Card
 import androidx.compose.material.Text
@@ -13,10 +14,12 @@ import com.vini.playground.ui.theme.*
 
 @Composable
 fun PortfolioCard(
+    onPortfolioProjectTapped: (portFolioId: Int) -> Unit,
     tecnology: String,
     projectTitle: String,
     description: String,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    projectId: Int
 ) {
     Card(modifier = modifier, backgroundColor = PortfolioCardBackground) {
         Column(
@@ -24,6 +27,9 @@ fun PortfolioCard(
                 .fillMaxWidth()
                 .wrapContentHeight()
                 .padding(32.dp)
+                .clickable {
+                    onPortfolioProjectTapped(projectId)
+                }
         ) {
             Text(
                 text = tecnology,
@@ -64,7 +70,11 @@ fun PortfolioCardPreview() {
                 tecnology = "JETPACK COMPOSE",
                 projectTitle = "Wellness Activities",
                 description = "Create, calculate and format money in Jetpack Compose and UI Test",
-                modifier = modifier
+                modifier = modifier,
+                projectId = 1,
+                onPortfolioProjectTapped = {
+
+                }
             )
         }
     }

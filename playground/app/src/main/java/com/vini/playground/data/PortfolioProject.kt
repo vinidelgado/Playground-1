@@ -21,7 +21,7 @@ val listProjects = listOf(
         "A sample of Wellness app using animation progressbar and lazy row."
     ),
     PortfolioProject(
-        2,
+        3,
         "JETPACK COMPOSE | UI | TEST",
         "Walkthrough App",
         "A sample of Walkthrough a financial app."
