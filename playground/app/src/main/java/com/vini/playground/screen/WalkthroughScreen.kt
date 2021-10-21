@@ -53,13 +53,6 @@ fun WalkthroughPager() {
                 )
             }
         }
-
-
-//
-//        ActionsRow(
-//            pagerState = pagerState,
-//            modifier = Modifier.align(Alignment.CenterHorizontally)
-//        )
     }
 }
 

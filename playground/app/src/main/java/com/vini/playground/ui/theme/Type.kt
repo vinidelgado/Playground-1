@@ -27,11 +27,25 @@ private val fontsGothic = FontFamily(
     Font(R.font.gothic_bold, FontWeight.Bold)
 )
 
+private val fontsArchivo = FontFamily(
+    Font(R.font.archivo_semibold),
+    Font(R.font.archivo_semibold, FontWeight.SemiBold),
+    Font(R.font.archivo_semibold, FontWeight.Bold)
+)
+
 
 private val fontsTest = FontFamily(
     Font(R.font.festive_regular),
     Font(R.font.festive_regular, FontWeight.SemiBold),
     Font(R.font.festive_regular, FontWeight.Bold)
+)
+
+val mobileCrypto = Typography(
+    subtitle1 = TextStyle(
+        fontFamily = fontsArchivo,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 18.sp
+    )
 )
 
 val progressBarTypography = Typography(

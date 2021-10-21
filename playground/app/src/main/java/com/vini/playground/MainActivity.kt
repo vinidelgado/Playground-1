@@ -13,6 +13,7 @@ import com.vini.playground.screen.ParallaxScreen
 import com.vini.playground.screen.PortfolioScreen
 import com.vini.playground.screen.WalkthroughScreen
 import com.vini.playground.screen.WellnessScreen
+import com.vini.playground.screen.login.SplashLoginScreen
 import com.vini.playground.ui.theme.PlaygroundTheme
 
 @ExperimentalUnitApi
@@ -22,13 +23,14 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             PlaygroundTheme {
-                val navController = rememberNavController()
-                NavHost(navController, startDestination = "main") {
-                    composable("main") { PortfolioScreen(navController, listProjects) }
-                    composable("parallax") { ParallaxScreen() }
-                    composable("walkthrough") { WalkthroughScreen() }
-                    composable("wellness") { WellnessScreen() }
-                }
+                SplashLoginScreen()
+//                val navController = rememberNavController()
+//                NavHost(navController, startDestination = "main") {
+//                    composable("main") { PortfolioScreen(navController, listProjects) }
+//                    composable("parallax") { ParallaxScreen() }
+//                    composable("walkthrough") { WalkthroughScreen() }
+//                    composable("wellness") { WellnessScreen() }
+//                }
             }
         }
     }

@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.accompanist:accompanist-systemuicontroller:0.20.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a1f64e6f491e45a72d84b3b3e39e2c73/transformed/jetified-accompanist-systemuicontroller-0.20.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a1f64e6f491e45a72d84b3b3e39e2c73/transformed/jetified-accompanist-systemuicontroller-0.20.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a1f64e6f491e45a72d84b3b3e39e2c73/transformed/jetified-accompanist-systemuicontroller-0.20.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d51ceec95a4e272d51805fa98c9dffb2/transformed/jetified-accompanist-systemuicontroller-0.20.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d51ceec95a4e272d51805fa98c9dffb2/transformed/jetified-accompanist-systemuicontroller-0.20.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d51ceec95a4e272d51805fa98c9dffb2/transformed/jetified-accompanist-systemuicontroller-0.20.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-systemuicontroller/0.20.0/f4f5375618203a36ea0ad85333fe8bdeb25ed041/accompanist-systemuicontroller-0.20.0-javadoc.jar!/" />

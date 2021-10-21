@@ -25,5 +25,7 @@ val PortfolioCardBackground = Color(0xFF201F22)
 val PortfolioTextTitleColor = Color(0xFFFFFFFF)
 val PortfolioTextDescriptionBColor = Color(0xFF949495)
 
+val Gray24 = Color(0xFF080A0C)
+val White = Color(0xFFFFFFFF)
 
 const val AlphaNearOpaque = 0.95f
